@@ -19,8 +19,8 @@ Example:
 node client 192.168.1.1 4001
 
 
-#How to Close the Server:
+# How to Close the Server:
 press e and then press the enter key on the server terminal.
 
-#How to Close a Client:
+# How to Close a Client:
 press e and then press the enter key on the client terminal.
