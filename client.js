@@ -8,8 +8,8 @@ const port=Number.parseInt(process.argv[3]);
 
 
 const rl=readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
+    input: stdin,
+    output: stdout
 })
 
 rl.setPrompt('Enter the data to be sent the to server (enter e to exit).: ')
