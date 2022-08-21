@@ -27,8 +27,8 @@ server.on('message', (data, rinfo) => {
 
 
   const prompt=rl.createInterface({
-    input: process.stdin,
-    output: process.stdout
+    input: stdin,
+    output: stdout
   });
 
   prompt.on('line', (input)=>{
